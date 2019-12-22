@@ -1,0 +1,11 @@
+C:\Users\christiandrey\source\repos\FirstActualCSharpApp\bin\Debug\netcoreapp3.1\FirstActualCSharpApp.exe
+C:\Users\christiandrey\source\repos\FirstActualCSharpApp\bin\Debug\netcoreapp3.1\FirstActualCSharpApp.deps.json
+C:\Users\christiandrey\source\repos\FirstActualCSharpApp\bin\Debug\netcoreapp3.1\FirstActualCSharpApp.runtimeconfig.json
+C:\Users\christiandrey\source\repos\FirstActualCSharpApp\bin\Debug\netcoreapp3.1\FirstActualCSharpApp.runtimeconfig.dev.json
+C:\Users\christiandrey\source\repos\FirstActualCSharpApp\bin\Debug\netcoreapp3.1\FirstActualCSharpApp.dll
+C:\Users\christiandrey\source\repos\FirstActualCSharpApp\bin\Debug\netcoreapp3.1\FirstActualCSharpApp.pdb
+C:\Users\christiandrey\source\repos\FirstActualCSharpApp\obj\Debug\netcoreapp3.1\FirstActualCSharpApp.csprojAssemblyReference.cache
+C:\Users\christiandrey\source\repos\FirstActualCSharpApp\obj\Debug\netcoreapp3.1\FirstActualCSharpApp.AssemblyInfoInputs.cache
+C:\Users\christiandrey\source\repos\FirstActualCSharpApp\obj\Debug\netcoreapp3.1\FirstActualCSharpApp.AssemblyInfo.cs
+C:\Users\christiandrey\source\repos\FirstActualCSharpApp\obj\Debug\netcoreapp3.1\FirstActualCSharpApp.dll
+C:\Users\christiandrey\source\repos\FirstActualCSharpApp\obj\Debug\netcoreapp3.1\FirstActualCSharpApp.pdb
