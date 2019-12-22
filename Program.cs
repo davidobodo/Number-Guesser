@@ -10,7 +10,7 @@ namespace NumberGuesser
             int age = 24;
 
             Console.WriteLine(name + " is " + age);
-            Console.WriteLine("{0} is {1}", name, age);
+            Console.WriteLine("{0} is {1}", name, age); //placeholders
         }
     }
 }
