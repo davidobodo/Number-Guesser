@@ -20,22 +20,16 @@ namespace NumberGuesser
                     string input = Console.ReadLine();
                     if (!int.TryParse(input, out guess))
                     {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine("Sorry, please enter an actual number");
-                        Console.ResetColor();
+                        PrintColorMessage(ConsoleColor.Red, "sorry, please enter an actual number");
                         continue;
                     }
                     guess = Int32.Parse(input);
                     if (guess != correctNumber)
                     {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine("Wrong number, please try again");
-                        Console.ResetColor();
+                        PrintColorMessage(ConsoleColor.Red, "wrong, please try again");
                     }
                 }
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("You are correct!!!");
-                Console.ResetColor();
+                PrintColorMessage(ConsoleColor.Yellow, "Correct!!!");
                 Console.WriteLine("Play Again? [Y or N]");
                 string answer = Console.ReadLine().ToUpper();
                 if( answer == "Y" ){ continue; }
@@ -60,6 +54,13 @@ namespace NumberGuesser
             Console.WriteLine("What is your name?");
             string inputName = Console.ReadLine();
             Console.WriteLine("Hello {0}, let's play a game", inputName);
+        }
+
+        static void PrintColorMessage(ConsoleColor color, string message)
+        {
+            Console.ForegroundColor = color;
+            Console.WriteLine(message);
+            Console.ResetColor();
         }
     }
 }
