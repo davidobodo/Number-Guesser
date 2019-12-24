@@ -7,9 +7,8 @@ namespace NumberGuesser
         static void Main(string[] args)
         {
             GetAppInfo();
-            Console.WriteLine("What is your name?");
-            string inputName = Console.ReadLine();
-            Console.WriteLine("Hello {0}, let's play a game", inputName);
+            GreetUser();
+            
             while (true)
             {
                 Random random = new Random();
@@ -54,6 +53,13 @@ namespace NumberGuesser
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("{0}: Version {1} by {2}", appName, appVersion, appAuthor);
             Console.ResetColor();
+        }
+
+        static void GreetUser()
+        {
+            Console.WriteLine("What is your name?");
+            string inputName = Console.ReadLine();
+            Console.WriteLine("Hello {0}, let's play a game", inputName);
         }
     }
 }
